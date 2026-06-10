@@ -1,0 +1,129 @@
+{
+  "app": {
+    "title": "2026 世界杯观赛助手",
+    "subtitle": "FIFA World Cup 2026™",
+    "tagline": "全程追踪每一场比赛"
+  },
+  "nav": {
+    "dashboard": "首页",
+    "schedule": "赛程赛果",
+    "standings": "积分榜",
+    "stats": "数据统计",
+    "injuries": "伤病信息",
+    "social": "社交媒体",
+    "predictions": "比赛预测",
+    "videos": "视频集锦",
+    "news": "新闻动态",
+    "history": "历史数据"
+  },
+  "dashboard": {
+    "liveNow": "正在直播",
+    "todayMatches": "今日赛程",
+    "noLiveMatches": "暂无正在进行的比赛",
+    "countdown": "距离开赛",
+    "days": "天",
+    "hours": "时",
+    "minutes": "分",
+    "seconds": "秒"
+  },
+  "schedule": {
+    "title": "赛程 & 赛果",
+    "filterByDate": "按日期筛选",
+    "allMatches": "全部比赛",
+    "groupStage": "小组赛",
+    "knockout": "淘汰赛",
+    "noMatches": "该日期暂无比赛"
+  },
+  "standings": {
+    "title": "积分榜",
+    "group": "小组",
+    "team": "球队",
+    "played": "场",
+    "won": "胜",
+    "drawn": "平",
+    "lost": "负",
+    "goalsFor": "进球",
+    "goalsAgainst": "失球",
+    "goalDiff": "净胜",
+    "points": "分"
+  },
+  "stats": {
+    "title": "数据统计",
+    "topScorers": "射手榜",
+    "playerRatings": "球员评分",
+    "player": "球员",
+    "team": "球队",
+    "goals": "进球",
+    "assists": "助攻",
+    "rating": "评分",
+    "matches": "出场"
+  },
+  "injuries": {
+    "title": "伤病信息",
+    "team": "球队",
+    "player": "球员",
+    "injury": "伤情",
+    "expectedReturn": "预计回归",
+    "status": "状态",
+    "noInjuries": "暂无伤病数据",
+    "out": "缺阵",
+    "doubtful": "出战成疑",
+    "returned": "已康复"
+  },
+  "social": {
+    "title": "社交媒体",
+    "twitterFeed": "X (Twitter) 动态",
+    "instagramFeed": "Instagram 动态",
+    "loading": "加载中...",
+    "noPosts": "暂无内容"
+  },
+  "predictions": {
+    "title": "比赛预测",
+    "poweredBy": "由机器学习模型提供"
+  },
+  "videos": {
+    "title": "视频集锦",
+    "search": "搜索视频",
+    "noVideos": "暂无视频"
+  },
+  "news": {
+    "title": "世界杯新闻",
+    "sources": "数据来源",
+    "noArticles": "暂无新闻"
+  },
+  "history": {
+    "title": "世界杯历史",
+    "champions": "历届冠军",
+    "records": "历史纪录",
+    "trivia": "趣闻知识",
+    "countrySearch": "查询国家队世界杯历史",
+    "searchPlaceholder": "输入国家代码 (如 BRA, GER, ARG)"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "加载失败，请稍后重试",
+    "retry": "重试",
+    "noData": "暂无数据",
+    "live": "直播中",
+    "finished": "已结束",
+    "scheduled": "未开始",
+    "vs": "vs"
+  },
+  "match": {
+    "status": {
+      "LIVE": "直播中",
+      "FINISHED": "已结束",
+      "FT": "已结束",
+      "SCHEDULED": "未开始",
+      "HALFTIME": "中场休息",
+      "HT": "中场休息"
+    },
+    "minute": "分钟",
+    "venue": "球场",
+    "group": "小组"
+  },
+  "footer": {
+    "disclaimer": "数据来源于公开API，仅供参考。FIFA World Cup 2026™ 为FIFA注册商标。",
+    "madeWith": "用 ⚽ 和 ☕ 制作"
+  }
+}

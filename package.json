@@ -1,0 +1,14 @@
+{
+  "name": "world-cup-assistant",
+  "version": "1.0.0",
+  "description": "2026 FIFA World Cup Assistant — One-click launcher",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently -n SERVER,CLIENT -c blue,green \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "start": "concurrently -n SERVER,CLIENT -c blue,green \"cd server && npm start\" \"cd client && npm run dev\"",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

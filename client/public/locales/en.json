@@ -1,0 +1,129 @@
+{
+  "app": {
+    "title": "2026 World Cup Assistant",
+    "subtitle": "FIFA World Cup 2026™",
+    "tagline": "Follow every match, every moment"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "schedule": "Schedule",
+    "standings": "Standings",
+    "stats": "Stats",
+    "injuries": "Injuries",
+    "social": "Social",
+    "predictions": "Predictions",
+    "videos": "Highlights",
+    "news": "News",
+    "history": "History"
+  },
+  "dashboard": {
+    "liveNow": "Live Now",
+    "todayMatches": "Today's Matches",
+    "noLiveMatches": "No live matches at the moment",
+    "countdown": "Kickoff Countdown",
+    "days": "d",
+    "hours": "h",
+    "minutes": "m",
+    "seconds": "s"
+  },
+  "schedule": {
+    "title": "Match Schedule & Results",
+    "filterByDate": "Filter by Date",
+    "allMatches": "All Matches",
+    "groupStage": "Group Stage",
+    "knockout": "Knockout",
+    "noMatches": "No matches on this date"
+  },
+  "standings": {
+    "title": "Group Standings",
+    "group": "Group",
+    "team": "Team",
+    "played": "P",
+    "won": "W",
+    "drawn": "D",
+    "lost": "L",
+    "goalsFor": "GF",
+    "goalsAgainst": "GA",
+    "goalDiff": "GD",
+    "points": "Pts"
+  },
+  "stats": {
+    "title": "Statistics",
+    "topScorers": "Top Scorers",
+    "playerRatings": "Player Ratings",
+    "player": "Player",
+    "team": "Team",
+    "goals": "Goals",
+    "assists": "Assists",
+    "rating": "Rating",
+    "matches": "Matches"
+  },
+  "injuries": {
+    "title": "Injury Report",
+    "team": "Team",
+    "player": "Player",
+    "injury": "Injury",
+    "expectedReturn": "Expected Return",
+    "status": "Status",
+    "noInjuries": "No injury data available",
+    "out": "Out",
+    "doubtful": "Doubtful",
+    "returned": "Returned"
+  },
+  "social": {
+    "title": "Social Feed",
+    "twitterFeed": "X (Twitter) Feed",
+    "instagramFeed": "Instagram Feed",
+    "loading": "Loading...",
+    "noPosts": "No posts available"
+  },
+  "predictions": {
+    "title": "Match Predictions",
+    "poweredBy": "Powered by Machine Learning"
+  },
+  "videos": {
+    "title": "Video Highlights",
+    "search": "Search Videos",
+    "noVideos": "No videos available"
+  },
+  "news": {
+    "title": "World Cup News",
+    "sources": "Sources",
+    "noArticles": "No articles available"
+  },
+  "history": {
+    "title": "World Cup History",
+    "champions": "Past Champions",
+    "records": "All-Time Records",
+    "trivia": "Did You Know?",
+    "countrySearch": "Search country World Cup history",
+    "searchPlaceholder": "Enter country code (e.g. BRA, GER, ARG)"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Failed to load. Please try again.",
+    "retry": "Retry",
+    "noData": "No data available",
+    "live": "LIVE",
+    "finished": "Finished",
+    "scheduled": "Upcoming",
+    "vs": "vs"
+  },
+  "match": {
+    "status": {
+      "LIVE": "LIVE",
+      "FINISHED": "Finished",
+      "FT": "Full Time",
+      "SCHEDULED": "Upcoming",
+      "HALFTIME": "Half Time",
+      "HT": "Half Time"
+    },
+    "minute": "'",
+    "venue": "Venue",
+    "group": "Group"
+  },
+  "footer": {
+    "disclaimer": "Data from public APIs, for reference only. FIFA World Cup 2026™ is a FIFA trademark.",
+    "madeWith": "Made with ⚽ and ☕"
+  }
+}
