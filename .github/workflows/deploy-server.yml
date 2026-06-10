@@ -1,10 +1,7 @@
 name: Deploy Backend to Vercel
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'server/**'
+  # Only trigger manually — Vercel's Git integration handles auto-deploy
   workflow_dispatch:
 
 jobs:
