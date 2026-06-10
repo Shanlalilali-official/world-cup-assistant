@@ -8,23 +8,25 @@ const corsMiddleware = {
       return;
     }
 
-    // Check exact match against configured URLs
+    // Allow any GitHub Pages domain (username.github.io)
+    if (origin.includes('github.io')) {
+      callback(null, true);
+      return;
+    }
+
+    // Allow localhost for development
+    if (origin.includes('localhost')) {
+      callback(null, true);
+      return;
+    }
+
+    // Check configured URLs as fallback
     if (config.clientUrls.includes(origin)) {
       callback(null, true);
       return;
     }
 
-    // Also allow any subpath under configured GitHub Pages URLs
-    // e.g. https://user.github.io matches https://user.github.io/repo/
-    const matched = config.clientUrls.some(
-      (url) => origin === url || origin.startsWith(url + '/')
-    );
-    if (matched) {
-      callback(null, true);
-      return;
-    }
-
-    console.warn(`[CORS] Blocked origin: ${origin}. Allowed: ${config.clientUrls.join(', ')}`);
+    console.warn(`[CORS] Blocked origin: ${origin}`);
     callback(null, false);
   },
   methods: ['GET', 'POST'],
